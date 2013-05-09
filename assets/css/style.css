@@ -32,6 +32,14 @@ a:hover { color: #888; text-decoration: none; }
 
 strong { font-weight: bold; }
 
+.left-align { text-align: left; }
+
+.navbar .btn-navbar {
+    margin-right: 0;
+    position: relative;
+    top: 10px;
+}
+
 
 /* ----- Header ----- */
 
@@ -157,6 +165,21 @@ strong { font-weight: bold; }
     margin-bottom: 50px;
 }
 
+.what-we-do-title {
+    background: url(../img/line.png) left center repeat-x;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.what-we-do-title h3 {
+    width: 340px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: #5d5d5d;
+}
+
 .what-we-do .service {
     padding-bottom: 23px;
     background: #f8f8f8;
@@ -176,6 +199,7 @@ strong { font-weight: bold; }
 
 .what-we-do .service .icon-awesome {
     margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 50px;
     line-height: 50px;
     color: #5d5d5d;
