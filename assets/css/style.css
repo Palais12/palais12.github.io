@@ -17,7 +17,7 @@ body {
     font-size: 12px;
 }
 
-.violet { color: rgb(255, 127,0); }
+.violet, .orange { color: rgb(255, 127,0); }
 
 a {
     color: rgb(255, 127,0);
@@ -154,6 +154,7 @@ strong { font-weight: bold; }
 
 .what-we-do {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .what-we-do .service {
@@ -190,7 +191,7 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .service p {
-    padding-bottom: 10px;
+    padding: 0 15px 10px;
     line-height: 24px;
 }
 
@@ -430,58 +431,6 @@ footer .widget i {
     padding-right: 7px;
 }
 
-/* Twitter feed */
-.show-tweets {
-    margin: 0;
-    overflow-y: hidden;
-}
-
-.tweet_list {
-    height: 10em;
-    margin: 0;
-    padding: 0;
-    overflow-y: hidden;
-    list-style: none;
-}
-	
-.tweet_list li {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    list-style-type: none;
-    line-height: 24px;
-}
-		
-.tweet_list .tweet_avatar {
-    float: left;
-}
-		
-.tweet_list .tweet_avatar img {
-    vertical-align: middle;
-}
-
-/* Flickr feed */
-.flickr-feed {
-    margin: 16px 0 0 0;
-    overflow: hidden
-}
-
-.flickr-feed li {
-    float: left;
-    padding: 0 4px 4px 0;
-    list-style: none;
-}
-
-.flickr-feed li img {
-    width: 50px;
-    border: 2px solid #eaeaea;
-}
-
-.flickr-feed a:hover {
-    opacity: 0.7;
-}
-
-
 footer .footer-border {
     margin-top: 30px;
     border-top: 1px dashed #ddd;
@@ -590,6 +539,18 @@ footer .social a:hover { background-position: left top; }
     padding: 0 20px;
     line-height: 28px;
     font-size: 13px;
+}
+
+.about-us-text blockquote {
+    margin-left: 25px;
+}
+
+.about-us-text blockquote p {
+    padding-left: 5px;
+}
+
+.about-us ul {
+    margin-left: 70px;
 }
 
 /* ----- Meet our team ----- */
@@ -1047,6 +1008,7 @@ ul.portfolio-img li {
 
     .what-we-do {
         margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .header ul.nav li a {
@@ -1120,6 +1082,18 @@ ul.portfolio-img li {
 
     .tweet_list {
         height: 10em;
+    }
+
+    .about-us ul {
+        margin-left: 50px;
+    }
+
+    .about-us-text blockquote {
+        margin-left: 20px;
+    }
+
+    .about-us-text blockquote p {
+        padding-left: 5px;
     }
 
 }
