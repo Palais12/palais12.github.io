@@ -29,11 +29,12 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover { color: #888; text-decoration: none; }
+a:hover { color: rgb(255, 210,0);/*#888*/; text-decoration: none; }
 
 strong { font-weight: bold; }
 
 .left-align { text-align: left; }
+.justify { text-align: justify; }
 
 .navbar .btn-navbar {
     margin-right: 0;
@@ -551,7 +552,7 @@ footer .social a:hover { background-position: left top; }
 }
 
 .about-us-text h4 {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     padding: 0 20px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -574,7 +575,7 @@ footer .social a:hover { background-position: left top; }
     padding-left: 5px;
 }
 
-.about-us ul {
+.about-us ul, .about-us ol {
     margin-left: 70px;
 }
 
@@ -1109,7 +1110,7 @@ ul.portfolio-img li {
         height: 10em;
     }
 
-    .about-us ul {
+    .about-us ul, .about-us ol {
         margin-left: 50px;
     }
 
